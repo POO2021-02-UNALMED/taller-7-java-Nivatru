@@ -52,8 +52,7 @@ public class Libro extends Escrito{
 	}
 	
 	public String toString() {
-		String str = String.format("%origen\n%titulo\n%autor\n%paginas\n%co_autor\n%editorial\n%edicion", getOrigen(), getTitulo(), getAutor(), getPaginas(), this.co_autor, this.editorial, this.edicion);
-		return str;
+		return this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n"+this.co_autor+"\n"+this.editorial+"\n"+this.edicion;
 	}
 	
 	public int palabrasTotales(int palabras) {

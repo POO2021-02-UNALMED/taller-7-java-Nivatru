@@ -42,8 +42,7 @@ public class Periodico extends Escrito{
 	}
 	
 	public String toString() {
-		String str = String.format("%origen\n%titulo\n%autor\n%paginas\n%fecha\n%primicia", getOrigen(), getTitulo(), getAutor(), getPaginas(), this.fecha, this.primicia);
-		return str;
+		return this.getOrigen()+"\n"+this.getTitulo()+"\n"+this.getAutor()+"\n"+this.getPaginas()+"\n"+this.fecha+"\n"+this.primicia;
 	}
 	
 	public int palabrasTotales(int palabras) {
