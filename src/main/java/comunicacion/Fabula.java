@@ -37,6 +37,6 @@ public class Fabula extends Escrito{
 	}
 	
 	public int palabrasTotales(int paginas) {
-		return paginas*1;
+		return paginas*2;
 	}
 }
